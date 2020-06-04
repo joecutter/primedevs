@@ -1,0 +1,51 @@
+[
+  {
+    "id": 0,
+    "question": "What type of hire are you making?",
+    "answers": [
+      "Full-time employee",
+      "Freelance",
+      "Contract-to-Hire",
+      "I'm not sure"
+    ]
+  },
+  {
+    "id": 1,
+    "question": "What level of experience do you need?",
+    "answers": ["Junior", "Senior", "Lead Developer", "Senior Leadership"]
+  },
+  {
+    "id": 2,
+    "question": "How urgently do you need to hire someone?",
+    "answers": ["48 hours", "1 week", "1 month", "1 quaarter"]
+  },
+  {
+    "id": 3,
+    "question": "Have you written project description for this project?",
+    "answers": [
+      "I have a rough idea of what this hire is going to do.",
+      "I have a clear idea of what this hire is going to do, but I do not have any specifications written.",
+      "I have a written job description."
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What's your budget?",
+    "answers": [
+      "$15-45 per hour",
+      "$45-100 per hour",
+      "Greater than $100 per hour",
+      "I'm not sure."
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Are you open to hiring remote developers?",
+    "answers": ["No", "Yes", "I'm not sure."]
+  },
+  {
+    "id": 6,
+    "question": "Your favourite communication channel?",
+    "answers": ["Email", "Slack", "Skype", "Discord"]
+  }
+]
