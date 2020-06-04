@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import $ from "jquery";
 
 export function Loader() {
@@ -16,6 +16,7 @@ export function Loader() {
         <svg class="circular" width="48px" height="48px">
           <circle
             class="path-bg"
+            user
             cx="24"
             cy="24"
             r="22"

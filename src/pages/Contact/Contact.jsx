@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../../components/layout/header";
 import Footer from "../../components/layout/footer";
+import { Loader } from "../../components/loader";
 
 export default class Contact extends Component {
   render() {
@@ -20,7 +21,7 @@ export default class Contact extends Component {
                 <div className="col-md-10 col-sm-12 ftco-animate mb-4 text-center fadeInUp ftco-animated">
                   <p className="breadcrumbs">
                     <span className="mr-2">
-                    <Link to="/">Home</Link>
+                      <Link to="/">Home</Link>
                     </span>{" "}
                     <span>Contact</span>
                   </p>
@@ -110,6 +111,7 @@ export default class Contact extends Component {
           </div>
         </section>
         <Footer />
+        <Loader />
       </div>
     );
   }

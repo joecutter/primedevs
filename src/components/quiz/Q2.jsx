@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Bar } from "../progressBar";
 import { Answer } from "../Answer";
 import { Title } from "../Title";
+import { Loader } from "../loader";
 
 export function Q2(props) {
   const { index, submit } = props;
@@ -30,6 +31,7 @@ export function Q2(props) {
           </div>
         </div>
       </section>
+      <Loader />
     </>
   );
 }

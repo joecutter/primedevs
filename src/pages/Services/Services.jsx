@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../../components/layout/header";
 import Footer from "../../components/layout/footer";
+import { Loader } from "../../components/loader";
 
 export default class Services extends Component {
   render() {
@@ -139,6 +140,7 @@ export default class Services extends Component {
         </section>
 
         <Footer />
+        <Loader />
       </div>
     );
   }

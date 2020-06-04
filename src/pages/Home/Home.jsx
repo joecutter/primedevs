@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../../components/layout/header";
+import { Loader } from "../../components/loader";
+
 export default class Home extends Component {
   state = {
     show: true
@@ -10,7 +12,7 @@ export default class Home extends Component {
     return (
       <div>
         <Header />
-        {/* <section class="home-slider ftco-degree-bg">
+        <section class="home-slider ftco-degree-bg">
           <div class="slider-item">
             <div class="overlay"></div>
             <div class="container">
@@ -48,7 +50,8 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
+        <Loader />
       </div>
     );
   }

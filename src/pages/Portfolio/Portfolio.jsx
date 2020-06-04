@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../../components/layout/header";
 import Footer from "../../components/layout/footer";
-
+import { Loader } from "../../components/loader";
 export default class Portfolio extends Component {
   render() {
     return (
@@ -186,6 +186,7 @@ export default class Portfolio extends Component {
           </div>
         </section>
         <Footer />
+        <Loader />
       </div>
     );
   }
