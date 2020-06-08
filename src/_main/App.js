@@ -7,6 +7,7 @@ import Service from "../pages/Services/Services";
 import Portfolio from "../pages/Portfolio/Portfolio";
 import Contact from "../pages/Contact/Contact";
 import Onboard from "../pages/Onboard/Onboard";
+import { Typeform } from "../components/quiz/typeForm";
 
 import "./App.css";
 
@@ -19,7 +20,8 @@ function App() {
         <Route exact path="/services" component={Service} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/onboard" component={Onboard} />
+        {/* <Route exact path="/onboard" component={Onboard} /> */}
+        <Route exact path="/onboard" component={Typeform} />
       </BrowserRouter>
     </div>
   );
