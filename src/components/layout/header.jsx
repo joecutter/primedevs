@@ -47,11 +47,11 @@ export default class Header extends Component {
                     Portfolio
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link to="/contact" className="nav-link">
                     Contact
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
